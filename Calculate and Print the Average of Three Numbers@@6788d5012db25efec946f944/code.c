@@ -6,11 +6,11 @@ int main() {
     int c;
     int sum;
     int average;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    scanf("%d",&c);
+    scanf("%f",&a);
+    scanf("%f",&b);
+    scanf("%f",&c);
     sum = a + b + c;
     average = sum/3;
-    printf("%d", average);
+    printf("%.2f", average);
     return 0;
 }
