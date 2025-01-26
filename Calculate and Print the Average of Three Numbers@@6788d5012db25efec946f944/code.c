@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    int b;
-    int c;
-    int average;
+    float a;
+    float b;
+    float c;
+    float average;
     scanf("%f",&a);
     scanf("%f",&b);
     scanf("%f",&c);
