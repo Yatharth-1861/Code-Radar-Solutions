@@ -10,7 +10,7 @@ int main() {
     scanf("%f",&b);
     scanf("%f",&c);
     sum = a + b + c;
-    average = sum\3;
+    average = sum/3;
     printf("%.2f", average);
     return 0;
 }
