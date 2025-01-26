@@ -12,5 +12,4 @@ int main() {
     sum = a + b + c;
     average = sum/3;
     printf("%.2f", average);
-    return 0;
 }
