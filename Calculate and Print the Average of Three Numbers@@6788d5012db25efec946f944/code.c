@@ -9,5 +9,5 @@ int main() {
     scanf("%f",&b);
     scanf("%f",&c);
     average = (a+b+c)/3;
-    printf("%f", average);
+    printf("%.2f", average);
 }
