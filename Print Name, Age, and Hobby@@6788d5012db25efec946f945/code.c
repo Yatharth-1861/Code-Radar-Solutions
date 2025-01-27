@@ -2,13 +2,13 @@
 
 int main() {
     int age;
-    char str1[100];
-    char str2[100];
+    char name[100];
+    char hobby[100];
     scanf("%d",&age);
-    scanf("%s",&str1);
-    scanf("%s",&str2);
-    printf("%d \n", age);
-    printf("%s \n",str1);
-    printf("%s \n",str2);
+    scanf("%s",&name);
+    scanf("%s",&hobby);
+    printf("Name: %s \n", name);
+    printf("Age: %d \n",age);
+    printf("Hobby: %s \n",hobby);
     return 0;
 }
