@@ -6,10 +6,10 @@ int main() {
     if(ch>=0 && ch<=9){
         printf("Digit");
     }
-    else if(ch!=a,i,e,o,u){
+    else if(ch!=a || ch!=i || ch!=e || ch!=o || ch!=u){
         printf("Consonant");
     }
-    else if(ch==a,e,i,o,u){
+    else if(ch==a || ch==e || ch==i || ch==o || ch==u){
         printf("Vovel");
     }
     else{
