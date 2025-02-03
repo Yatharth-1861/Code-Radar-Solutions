@@ -6,19 +6,19 @@ int main() {
     scanf("%lf %lf %c",&a,&b,&c);
     if(c=='+'){
         z = a+b;
-        printf("%lf",z);
+        printf("%.0lf",z);
     }
     else if(c=='-'){
         y = a-b;
-        printf("%lf",y);
+        printf("%.0lf",y);
     }
     else if(c=='*'){
         x = a*b;
-        printf("%lf",x);
+        printf("%.0lf",x);
     }
     else if(c=='/'){
         w = a/b;
-        printf("%lf",w);
+        printf("%.0lf",w);
     }
     return 0;
 }
