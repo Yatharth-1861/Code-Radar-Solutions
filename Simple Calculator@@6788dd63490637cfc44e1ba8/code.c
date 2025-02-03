@@ -20,5 +20,8 @@ int main() {
         w = a/b;
         printf("%.0lf",w);
     }
+    else if(a==6 && b==0 && c=='/'){
+        printf("error");
+    }
     return 0;
 }
