@@ -17,8 +17,13 @@ int main() {
         printf("%.0lf",x);
     }
     else if(c=='/'){
-        w = a/b;
-        printf("%.0lf",w);
+        if(a==0 || b==0){
+            printf("error");
+        }
+        else if(){
+            w = a/b;
+            printf("%.0lf",w);
+        }
     }
     else if(a==6 && b==0 && c=='/'){
         printf("error");
