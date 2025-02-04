@@ -4,18 +4,14 @@
 int main() {
     char ch;
     scanf("%c",&ch);
-    char lowerch = tolower(ch);
-    if(ch>=0 && ch<=9){
+    if (isdigit(ch)) {
         printf("Digit");
     }
-    else if(lowerchch!='a' || lowerch!='i' || lowerchch!='o' || lowerchch!='e' || lowerchch!='u'){
-        printf("Consonant");
-    }
-    else if(lowerchch=='a' || lowerchch=='e' || lowerchch=='i' || lowerchch=='o' || lowerchch=='u'){
-        printf("Vovel");
-    }
-    else{
-        printf("Special Character");
+    else if(isalpha(ch)){
+        char lower_ch = tolower(ch);
+        if(lower_ch=='a' || lower_ch == 'e' || lower_ch == 'i' || lower_ch == 'o' || lower_ch =='u'){
+            printf("Vowel");
+        }
     }
     return 0;
 }
