@@ -17,7 +17,7 @@ int main() {
         printf("%.0lf",x);
     }
     else if(c=='/'){
-        if(a==0 || b==0){
+        if(b==0){
             printf("error");
         }
         else if(){
