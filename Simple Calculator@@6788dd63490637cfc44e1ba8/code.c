@@ -17,13 +17,14 @@ int main() {
         printf("%.0lf",x);
     }
     else if(c=='/'){
-        if(b==0){
-            printf("error");
-        }
-        else if(){
+        if(b!=0){
             w = a/b;
-            printf("%.0lf",w);
         }
+        else{
+            printf("error");
+            return 1;
+        }
+        printf("%.0lf",w);
     }
     return 0;
 }
