@@ -25,5 +25,4 @@ int main() {
         }
         printf("%.0lf",w);
     }
-    return 0;
 }
