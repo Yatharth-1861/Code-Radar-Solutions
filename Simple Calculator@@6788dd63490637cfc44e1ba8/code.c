@@ -22,7 +22,6 @@ int main() {
         }
         else{
             printf("error");
-            return 1;
         }
         printf("%.0lf",w);
     }
