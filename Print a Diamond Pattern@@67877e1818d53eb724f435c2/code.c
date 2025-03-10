@@ -13,7 +13,7 @@ int main(){
             printf("*");
         }
         // to print *
-        for(int k = 1;k<=i;k++){
+        for(int k = 1;k<=n-i;k++){
             printf("*");
         }
                 // to print spaces
