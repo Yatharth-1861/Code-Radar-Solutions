@@ -2,9 +2,6 @@
 
 int main() {
     int n;
-
-    // Input size of half diamond
-    printf("Enter the number of rows for half diamond: ");
     scanf("%d", &n);
 
     // Upper part of the diamond
