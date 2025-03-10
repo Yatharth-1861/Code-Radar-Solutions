@@ -10,8 +10,8 @@ int main(){
             printf(" ");
         }
         for(int k = 1;k<=i;k++){
-            printf("%d ",k);
-            k = k + 1;
+            printf("%d ",count);
+            count = count + 1;
         }
         printf("\n");
     }
