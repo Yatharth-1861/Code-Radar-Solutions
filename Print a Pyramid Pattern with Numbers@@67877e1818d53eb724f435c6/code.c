@@ -10,7 +10,7 @@ int main(){
             printf(" ");
         }
         for(int k = 1;k<=i;k++){
-            printf("%d",count);
+            printf("%d ",count);
             count = count + 1;
         }
         printf("\n");
