@@ -11,11 +11,11 @@ int main(){
     k = k%a;
 
     int temp[100];
-    for(int i = 0;i<k;i++){
-        temp[i] = arr[a-k+i];
+    for(int j = 0;j<k;j++){
+        temp[j] = arr[a-k+j];
     }
-    for(int j = a;j<k;j++){
-        temp[i] = arr[a-k];
+    for(int j = k;j<a;j++){
+        temp[j] = arr[j-k];
     }
     for(int i = 0;i<a;i++){
         arr[i] = temp[i];
