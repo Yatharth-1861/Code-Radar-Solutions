@@ -21,6 +21,6 @@ int main(){
         arr[i] = temp[i];
     }
     for(int i = 0;i<a;i++){
-        printf("%d",arr[i]);
+        printf("%d \n",arr[i]);
     }
 }
