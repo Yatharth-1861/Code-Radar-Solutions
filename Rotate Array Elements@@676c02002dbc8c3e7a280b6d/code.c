@@ -6,7 +6,7 @@ int main(){
     for(int i = 0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    scanf("%d",&k)
+    scanf("%d",&k);
     k = k % a;
     
     int temp[100];  // to store rotated elements
